@@ -1,0 +1,9 @@
+import java.util.UUID;
+
+
+public class Unique {
+   public static void main(String[] args) {
+	   String  uniqueID = UUID.randomUUID().toString();
+	   System.out.println(uniqueID + "  "+uniqueID.length());
+}
+}

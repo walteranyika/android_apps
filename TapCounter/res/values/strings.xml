@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tap Counter</string>
+    <string name="action_help">Help</string>
+    <string name="action_list">Saved Items</string>
+    <string name="action_save">Save</string>    
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_minus">Subtract</string>
+    <string name="btn_add">Add</string>
+    <string name="count">00</string>
+    <string name="help_text">Help and About</string>
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wise Sayings</string>
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+	<string name="favourites">Favourites</string>
+	<string name="search">Search</string>
+	<string name="help_text">Help and About</string>
+</resources>

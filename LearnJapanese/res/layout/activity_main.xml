@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" 
+    android:background="#CC3300">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_margin="1dp">
+
+			<Button
+			        android:id="@+id/Button06"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:onClick="numbers"
+			        android:layout_marginTop="4dp"
+			        android:text="@string/numbers" />
+			<Button
+			        android:id="@+id/Button05"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:onClick="animals"
+			        android:layout_marginTop="4dp"
+			        android:text="@string/animals" />
+			<Button
+			        android:id="@+id/Button04"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:onClick="colors"
+			        android:layout_marginTop="4dp"
+			        android:text="@string/colors" />
+			<Button
+			        android:id="@+id/Button03"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"			        
+			        android:layout_marginTop="4dp"
+			        android:onClick="greetings"
+			        android:text="@string/greetings" />
+			<Button
+			        android:id="@+id/Button02"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"			        
+			        android:layout_marginTop="4dp"
+			        android:onClick="time"
+			        android:text="@string/time" />
+			<Button
+			        android:id="@+id/Button01"
+			       android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"			       
+			        android:layout_marginTop="4dp"
+			        android:onClick="calendars"
+			        android:text="@string/calendar" />
+			<Button
+			        android:id="@+id/button1"
+			       android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"			        
+			        android:layout_marginTop="4dp"
+			        android:onClick="week_days"
+			        android:text="@string/week_days" />
+			<Button
+			        android:id="@+id/butto"
+			       android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"			        
+			        android:layout_marginTop="4dp"
+			        android:onClick="weathers"
+			        android:text="@string/weather" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

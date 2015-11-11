@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Currency Converter</string>
+    <string name="action_settings">Refresh</string>
+    <string name="exchange_rate">Exchange Rate</string>
+    <string name="you_got_text">You Got</string>
+    <string name="you_get_text">You Get</string>
+    <string name="btn_switch_text">switch</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="search_here">Search here</string>
+    <string name="help_text">Help and About</string>
+    
+</resources>

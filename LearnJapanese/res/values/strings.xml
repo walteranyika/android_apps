@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Learn Japanese</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="numbers">Numbers</string>
+    <string name="animals">Animals</string>
+    <string name="colors">Colors</string>
+    <string name="greetings">Greetings</string>
+    <string name="time">Time</string>
+    <string name="calendar">Calendar</string>
+    <string name="week_days">Week Days</string>
+    <string name="weather">Weather</string>
+    <string name="help_text">Help and About</string>
+  
+</resources>

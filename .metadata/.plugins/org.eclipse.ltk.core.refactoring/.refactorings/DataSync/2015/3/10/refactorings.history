@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;libs&apos;&#x0D;&#x0A;- Original project: &apos;DataSync&apos;&#x0D;&#x0A;- Destination element: &apos;libs&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     gson-2.2.4.jar&#x0D;&#x0A;     android-async-http-1.4.4.jar" description="Copy files" element1="libs/gson-2.2.4.jar" element2="libs/android-async-http-1.4.4.jar" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1425753639069" target="/DataColletor/libs" units="0" version="1.0"/>
+</session>

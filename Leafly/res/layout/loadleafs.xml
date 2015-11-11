@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical"
+    android:clickable="true"
+	android:focusable="true"
+	android:focusableInTouchMode="true"
+	android:id="@+id/full_view"
+	android:background="@drawable/background" >
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >            	
+			    <TextView
+			        android:id="@+id/textName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Name"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:layout_marginBottom="2px" 
+			        android:layout_marginTop="2px"
+			        android:layout_gravity="center_horizontal"
+			        android:textColor="#CD0000"/>
+			    <ImageView
+			        android:id="@+id/imageView1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ic_launcher"
+			        android:layout_gravity="center_horizontal"
+			        android:layout_marginTop="2px"
+			        android:layout_marginBottom="2px"
+			        android:background="@drawable/backk"                
+			         />
+			    <TextView
+			        android:id="@+id/textDesc"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:text="Medium Text"
+			        android:layout_gravity="center"
+			        android:textAppearance="?android:attr/textAppearanceMedium" 
+			        android:textColor="#EEEEE0"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

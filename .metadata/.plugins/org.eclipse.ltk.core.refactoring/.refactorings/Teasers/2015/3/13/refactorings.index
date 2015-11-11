@@ -1,0 +1,8 @@
+1427046656735	Rename field 'names'
+1427046671523	Rename field 'email'
+1427046683996	Rename field 'phone'
+1427046713592	Rename field 'location'
+1427047487706	Rename local variable 'names'
+1427047501229	Rename local variable 'email'
+1427047515330	Rename local variable 'phone'
+1427118573588	Extracts string 'null' into R.string.label_butto_sync

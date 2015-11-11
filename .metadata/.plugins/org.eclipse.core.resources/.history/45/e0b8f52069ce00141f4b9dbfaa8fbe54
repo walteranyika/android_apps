@@ -1,0 +1,16 @@
+package com.inspireafrica.chatter;
+
+import android.app.Application;
+
+import com.parse.Parse;
+
+public class ChatterApplication extends Application {
+	@Override
+	public void onCreate() {
+		// TODO Auto-generated method stub
+		super.onCreate();
+		Parse.enableLocalDatastore(this);		 
+		Parse.initialize(this, "IilfNbscszzSkEg5azVHnphL8YohbyRMFiNzTWFH", "efDMnjSLpTooBt96AK6pos2gOktsb43nGRMzWyqu");
+	}
+
+}

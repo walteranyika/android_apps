@@ -1,0 +1,7 @@
+package com.inspireafrica.chatter;
+
+import android.app.Application;
+
+public class ChatterApplication extends Application {
+
+}

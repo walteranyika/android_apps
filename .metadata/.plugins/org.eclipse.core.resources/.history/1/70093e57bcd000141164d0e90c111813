@@ -1,0 +1,21 @@
+package com.walter.teasers;
+
+public class Details {
+	String id;
+	String originAddress;
+	String messageBody;
+	String messageDate;
+	String updateStatus;
+	String guid;
+	public Details(String _id,String _names,String _email,String _phone,String _location, String _guid)
+	{
+		id=_id;
+		originAddress=_names;
+		messageBody=_email;
+		messageDate=_phone;
+		updateStatus=_location;
+		guid=_guid;
+		
+	}	
+	
+}
